@@ -1,0 +1,32 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Express 2012 for Windows Desktop
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SimpleFactoryPattern", "DesignPattern\SimpleFactoryPattern.csproj", "{9B31F841-FEFB-47A2-B90B-469E58093303}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FactoryMethodPattern", "FactoryMethodPattern\FactoryMethodPattern.csproj", "{C0F560DC-CCB3-4B72-9AA1-A293C6E259E3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AbstractFactory", "AbstractFactory\AbstractFactory.csproj", "{3F80D6AA-F891-4DFA-BF87-E4F342FC72E0}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{9B31F841-FEFB-47A2-B90B-469E58093303}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9B31F841-FEFB-47A2-B90B-469E58093303}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9B31F841-FEFB-47A2-B90B-469E58093303}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9B31F841-FEFB-47A2-B90B-469E58093303}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C0F560DC-CCB3-4B72-9AA1-A293C6E259E3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C0F560DC-CCB3-4B72-9AA1-A293C6E259E3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C0F560DC-CCB3-4B72-9AA1-A293C6E259E3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C0F560DC-CCB3-4B72-9AA1-A293C6E259E3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3F80D6AA-F891-4DFA-BF87-E4F342FC72E0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3F80D6AA-F891-4DFA-BF87-E4F342FC72E0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3F80D6AA-F891-4DFA-BF87-E4F342FC72E0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3F80D6AA-F891-4DFA-BF87-E4F342FC72E0}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

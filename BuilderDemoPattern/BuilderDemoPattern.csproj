@@ -4,12 +4,12 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{B3773BF7-D694-4B4C-A402-1A4E83888DBE}</ProjectGuid>
+    <ProjectGuid>{2CA91C36-4703-4427-B257-E56BAA3EC694}</ProjectGuid>
     <OutputType>Exe</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>AbstractFactoryPattern</RootNamespace>
-    <AssemblyName>AbstractFactoryPattern</AssemblyName>
-    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <RootNamespace>BuilderDemoPattern</RootNamespace>
+    <AssemblyName>BuilderDemoPattern</AssemblyName>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
@@ -36,16 +36,20 @@
     <Reference Include="System.Core" />
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Data.DataSetExtensions" />
-    <Reference Include="Microsoft.CSharp" />
     <Reference Include="System.Data" />
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Enum\BreadType.cs" />
+    <Compile Include="Enum\CheeseType.cs" />
+    <Compile Include="ClubSandwichBuilder.cs" />
+    <Compile Include="Enum\MeatType.cs" />
+    <Compile Include="MySandwichBuilder.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="App.config" />
+    <Compile Include="Sandwich.cs" />
+    <Compile Include="SandwichBuilder.cs" />
+    <Compile Include="SandwichMaker.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

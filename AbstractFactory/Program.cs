@@ -1,10 +1,6 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using FactoryMethodPattern;
 using System.Reflection;
+using FactoryMethodPattern;
 
 namespace DesignPattern
 {
@@ -19,7 +15,7 @@ namespace DesignPattern
             //which in turn decides which concrete class to return
             //Here the factory is known but the creation is centralised to specific factory
             //Also more customized objects can be created.
-            IAuto car = autoFactory.CreateAutomobile();
+            IAutomobile car = autoFactory.CreateSportsCar();
 
             car.TurnOn();
             car.TurnOff();
